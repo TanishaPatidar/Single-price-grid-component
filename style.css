@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --primary-color: hsl(158, 36%, 37%);
+  --secondary-color: hsl(30, 38%, 92%);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--secondary-color);
+}
+
+.header_container {
+  width: 100%;
+  position: relative;
+}
+
+.img {
+  height: 500px;
+  width: 400px;
+
+}
+
+.imag {
+
+  width: 50%;
+  position: absolute;
+  float: left;
+  top: 150px;
+  left: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+
+  height: 500px;
+  width: 310px;
+  position: absolute;
+
+  float: right;
+  right: 440px;
+  top: 150px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+
+  background-color: hsl(0, 0%, 100%);
+}
+
+P {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+
+}
+
+#button {
+  background-color: var(--primary-color);
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin: 1rem;
+
+}
+
+#price1 {
+  font-size: 34px;
+  color: var(--primary-color);
+  font-weight: bold;
+
+}
+
+#price2 {
+  font-size: 20px;
+  color: hsl(228, 12%, 48%);
+  font-weight: bold;
+  padding-left: 1rem;
+  text-decoration: line-through;
+
+
+}
+
+h3 {
+
+  letter-spacing: 0.2rem;
+  color: hsl(228, 12%, 48%);
+  direction: ltr;
+
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.buutonp {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px;
+}
